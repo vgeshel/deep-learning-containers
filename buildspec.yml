@@ -2,9 +2,6 @@ version: 0.2
 
 #TODO: Move all constatns to environment variables
 phases:
-  install:
-    runtime-versions:
-      docker: 18
   pre_build:
     commands:
       - start-dockerd
